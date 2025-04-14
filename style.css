@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,406&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+body{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    background: white;
+}
+.container{
+    width: 500px;
+}
+.container .form {
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+    padding: 20px;
+    border: 1px solid #ebebeb;
+}
+.form .form-image {
+    width: 200px;
+    object-fit: cover;
+}
+.form  .heading1 {
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+}
+.form .label {
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 50px;
+}
+input {
+    width: 80%;
+    padding: 20px 15px;
+    outline: none;
+    font-size: 16px;
+    background: #f7f7f7;
+    border-radius: 4px;
+    border: 1px solid #f7f7f7;
+    transition: border 0.2s ease;
+    cursor: pointer;
+}
+input:hover{
+    border: 2px solid rgb(2, 187, 233);
+    
+}
+.form .heading2 {
+    color: #0FADFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.form .button {
+    color: white;
+    background-color: rgb(2, 187, 233) ;
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: 0.3s;
+    width: 30%;
+    margin-bottom: 30px;
+}
+.form .button:hover{
+    background-color: #0aa9ff;
+}
+.sign-up {
+   padding: 20px 0;
+    font-size: 26px;
+    color: black;
+    font-weight: 500;
+
+}
